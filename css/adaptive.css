@@ -1,0 +1,12 @@
+@media screen  and (max-width : 419px) {
+    #accordion h3 {
+        font-size: 12px!important;
+    }
+}
+
+@media screen  and (max-width : 330px) {
+    .ui-icon {
+        right: 10px;
+        top: 26px;
+    }
+}

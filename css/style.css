@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.slick-prev, .slick-next {
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #076BFF;
+    border-radius: 50%;
+    background-color: #076BFF;
+}
+.slick-prev {
+    left: 13px;
+}
+.slick-next {
+    right: 13px;
+}
+
+.slick-prev:before, .slick-next:before {
+    position: absolute;
+    font-size: 44px;
+    top: 0;
+    opacity: 1;
+}
+.slick-prev:before {
+    left: -3px;
+}
+.slick-next:before {
+    right: -3px;
+}
+
+.ui-icon {
+    position: absolute;
+    right: 28px;
+    top: 32px;
+    transform: scale(2.5)
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
